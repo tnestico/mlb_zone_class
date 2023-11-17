@@ -1,10 +1,15 @@
-# Classifying MLB Pitch Zones and Predicting MiLB Zone
-
 ## Statcast Pitch Classification
 
 ### Zones
 
 Within the MLB Stats API and Baseball Savant API, pitch locations are classified into 12 zones, as illustrated in Figure 1. These zones, as seen from the catcher’s perspective, define the strikezone and relative locations of a pitch. For example, a pitch inside “Zone 1” would be classified as a “Strike” and “up and away” to a left handed batter. In the same vein, a pitch located in zone 11, 12, 13, or 14 (and beyond) is outside of the strikezone, and would be classified as as “Ball”
+
+All pitches located in Zones 1–9 are considered “In-Zone”
+
+All pitches located in Zones 11–14 are considered “Out-of-Zone”
+
+
+![images/zones.png](attachment:image.png)
 
 ### Zone Metrics
 
@@ -20,3 +25,5 @@ Table 1: 2023 MLB xwOBACON In-Zone and Out-of-Zone
 | True      |   0.393 |
 
 Batters which consistently swing at pitches inside the strikezone are more likely to perform at a higher level than those that do not. Figure 2 illustrates the xwOBACON of each of the zones during the 2023 MLB Season. Pitches thrown near the heart of the plate tend to be more favourable for batters compared to those further away from the centre.
+
+![images/zones_xwobacon.png](attachment:image-2.png)
