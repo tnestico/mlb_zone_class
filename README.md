@@ -7,4 +7,4 @@ This project uses Statcast Data and MLB Gameday Data to train both a linear regr
 * The notebook also includes all methodology and visualizations for the project.
 
 ## Medium Article
-* Here is a link to the Medium Article which is a writeup about the project:  
+* Here is a link to the Medium Article which is a writeup about the project: https://medium.com/@thomasjamesnestico/classifying-mlb-pitch-zones-and-predicting-milb-zones-7e95cf308254
